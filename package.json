@@ -24,7 +24,8 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{ts,tsx,json}\"",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_93f3285de2cd8ff"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +57,7 @@
     "@storybook/react": "^8.3.2",
     "@storybook/react-webpack5": "^8.3.2",
     "@storybook/test": "^8.3.2",
+    "chromatic": "^11.10.4",
     "eslint-plugin-storybook": "^0.8.0",
     "prop-types": "^15.8.1",
     "storybook": "^8.3.2",

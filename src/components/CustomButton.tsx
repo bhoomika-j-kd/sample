@@ -9,6 +9,7 @@ export default function CustomButton(props: CustomButtonProps) {
         width: props.width,
         height: props.height,
         borderWidth: props.provideBorder ? '2px' : '0px',
+        borderRadius: '20px',
       }}
       onClick={props.handleClick}
     >
