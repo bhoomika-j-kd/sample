@@ -10,6 +10,8 @@ export default function CustomButton(props: CustomButtonProps) {
         height: props.height,
         borderWidth: props.provideBorder ? '2px' : '0px',
         borderRadius: '20px',
+        fontSize:'20px',
+        color:'blue'
       }}
       onClick={props.handleClick}
     >
